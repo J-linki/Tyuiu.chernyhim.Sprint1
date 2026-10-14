@@ -6,7 +6,7 @@ namespace Tyuiu.chernyhim.Sprint1.Task3.V7.Lib
     {
         public double VerstsToKilometers(double verst)
         {
-            return Math.Round(verst * 1.0668, 3);
+            не_скомпилируется;
         }
     }
 }
