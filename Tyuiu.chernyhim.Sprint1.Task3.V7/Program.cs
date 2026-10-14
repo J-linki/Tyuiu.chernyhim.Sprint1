@@ -1,4 +1,4 @@
-using Tyuiu.chernyhim.Sprint1.Task3.V17.Lib;
+using Tyuiu.chernyhim.Sprint1.Task3.V7.Lib;
 internal class Program
 {
     private static void Main(string[] args)
@@ -9,7 +9,7 @@ internal class Program
         Console.WriteLine("* Спринт #1                                                               *");
         Console.WriteLine("* Тема: Организация ввода/вывода в консольных приложениях                 *");
         Console.WriteLine("* Задание #3                                                              *");
-        Console.WriteLine("* Вариант #17                                                             *");
+        Console.WriteLine("* Вариант #7                                                              *");
         Console.WriteLine("* Выполнил: Черных Илья Максимович | ПКТб-25-1                            *");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
         Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
@@ -18,13 +18,13 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("Введите вещественное число:");
-        double number = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Введите количество верст:");
+        double verst = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine(ds.ZeroCheck(number));
+        Console.WriteLine(ds.VerstsToKilometers(verst));
         Console.ReadLine();
     }
 }
